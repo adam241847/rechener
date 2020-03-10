@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rechner</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    
+
+      <main>
+        <h1>jahre stuea</h1>
+        <form action="javascript:rechnen()">
+            <div class="form-container">
+                <div class="left">
+                    <h3>Jahren</h3>
+                </div>
+                <div class="right">
+                    <select id="jahr">
+                        <option value="2020" selected>2020</option>
+                        <option value="2019">2019</option>
+                        <option value="2018">2018</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-container">
+                <div class="left">
+                    
+                </div>
+                <div class="right">
+                    <input type="radio" name="situation" id="einzel" value="einzel" onclick="toggleInput()" checked>
+                    <label for="einzel">Person</label>
+                    <input type="radio" name="situation" id="zusammen" onclick="toggleInput()" value="zusammen">
+                    <label for="zusammen">Zusammen</label>
+                </div>
+                <div class="right">
+                    <div>
+                        <input  placeholder="Euro" id="zvE1">
+                    </div> 
+                     <div id="result"></div>
+                    <div>
+                        <input  placeholder="Euro für 2 person" id="zvE2">
+                    </div>
+                </div>
+            </div>
+            <div class="form-container">
+                <div class="left">
+                    <h3>richner zusammen</h3>
+                </div>
+                
+            </div>
+            <div class="form-container">
+                <input type="submit" value="rechne" onclick="rechnen()">
+            </div>
+        </form>
+      
+    </main>
+
+
+
+
+
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

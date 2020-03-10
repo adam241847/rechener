@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    height: 100vh;
+    margin: 10%;
+    display: flex;
+    justify-content: center;
+     background: rgb(105, 69, 0) url("../img/shutterstock_276522485-e1549444346484.jpg") no-repeat fixed center;
+}
+ main{
+   
+     /* background: url(../img/Download.jpeg);
+     background-repeat: no-repeat;
+     position: absolute; */
+     height: 50%;
+     width: 50%;
+     padding: 10%;
+ }
+ h1{
+     font-size: 50px;
+     color: rgb(255, 255, 255);
+     border: 2px solid rgb(250, 247, 247);
+     display: flex;
+     justify-content: center;
+ }
+h3{
+    color: white;
+}
+option{
+    color: white;
+    background-color: yellow;
+}
+    
+
+
